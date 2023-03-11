@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { useDispatch } from 'react-redux';
 import { toggleMenu } from '../utils/appSlice';
 
 const Head = () => {
+  const [serachQuery, setSearchQuery] = useState("");
+  console.log(serachQuery);
+
   const dispatch = useDispatch();
 
   const toggleMenuHandler = () => {
@@ -30,6 +33,8 @@ const Head = () => {
         <input
           className='w-1/2 border border-gray-400 p-2 rounded-l-full'
           type='text'
+          value={serachQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
         />
         <button className='border border-gray-400 px-5 py-2 rounded-r-full bg-gray-100'>
           🔍

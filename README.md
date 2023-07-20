@@ -1,3 +1,24 @@
+✨ Developed a scalable and performant video streaming app using React, Tailwind, React-Router and Redux Store, powered by YouTube's Live API.
+✨ Implemented Debouncing with a 200 ms delay to reduce API calls on frequent key presses.
+✨ Optimized search by storing results in the cache using Redux Store.
+✨ Used Lazy-Loading with Suspense and custom hooks to enhance user experience and performance.
+✨ Implemented Live Chat using API-Polling.
+✨ Implemented Config-Driven UI and also the Nested Comments.
+✨ Implemented Shimmer UI for loading animations.
+✨ It has a toggleable sidebar, which is in global space in redux.
+✨ Some buttons to change the category of videos on the homepage. It changes fetch data based on the category.
+✨ A single video page ( which only has the video so far)
+✨ Showing search suggestions ~ using Google's search suggestions API.
+✨ It also uses caching to store data in redux store, to avoid duplicate API calls.
+
+
+
+===============================================================================================================================================================
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
